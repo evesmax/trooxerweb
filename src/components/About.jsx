@@ -15,17 +15,10 @@ const About = () => {
           />
         </div>
         <p className="text-lg lg:text-3xl font-light text-center lg:text-left max-w-5xl mx-auto mt-8">
-          At VastuSpaze, we believe in transforming houses into dream homes.
-          With a passion for design and a commitment to quality, our team of
-          skilled professionals has been dedicated to delivering exceptional
-          renovation services for over a decade. We specialize in creating
-          beautiful, functional spaces that reflect our clients unique tastes
-          and lifestyles. From modern kitchens and luxurious bathrooms to serene
-          outdoor living areas and cozy home offices, we bring our expertise to
-          every project, ensuring each renovation is tailored to meet your
-          specific needs and desires. Our mission is to enhance the beauty and
-          functionality of your home, making it a place where you can truly
-          thrive.
+        Las empresas de transporte enfrentan desafíos significativos en la gestión de sus operadores, quienes son responsables de la ejecución del servicio. La falta de comunicación, la incertidumbre sobre el estado de los viajes, la ubicación de las unidades y el cumplimiento de los procesos documentales son problemáticas comunes que afectan la eficiencia y la calidad del servicio.
+        <br></br>
+        <br></br>
+        Nuestro objetivo es desarrollar e implementar Trooxer, una solución SaaS que permita a las empresas de transporte gestionar y monitorear a sus operadores de forma eficiente, mejorando la comunicación, el seguimiento de los viajes y el cumplimiento de los procesos.
         </p>
       </div>
     </section>

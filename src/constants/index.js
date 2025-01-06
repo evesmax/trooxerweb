@@ -3,7 +3,7 @@ import kitchenImage from "../assets/kitchen.jpg";
 import bathroomImage from "../assets/bathroom.jpg";
 import livingRoomImage from "../assets/living-room.avif";
 
-import portfolio1 from "../assets/portafolio1.webp";
+import portfolio1 from "../assets/portafolio1.png";
 import portfolio2 from "../assets/portafolio2.png";
 import portfolio3 from "../assets/portafolio3.png";
 import portfolio4 from "../assets/portfolio4.webp";
@@ -46,12 +46,12 @@ export const SERVICES_CONTENT = [
   {
     title: "Publicación y asignación de Carga.",
     description:
-      "- Alta de Viajes desde el portal de asignaciones. - Aplicación Android, iOS y web para que los transportistas oferten su servicio. - Asignación manual y automática de viajes a transportistas. - Asignación de viajes en modo subasta con tarifas variables",
+      "",
     image: kitchenImage,
     alt: "Kitchen Renovation",
   },
   {
-    title: "Tablero de Control de Viajes",
+    title: "Precio",
     description:
       "- Indicadores generales de los estatus en tiempo real de la carga. - Monitoreo del avance de cada fase de cada uno de los viajes entránsito. (Conexión con GPS de Transportistas que tengan acceso weba rastrep). - Aplicación de transportista para subir evidencias en fotografías. - Tablero de Control de Viajes. - Personalización de políticas de asignación. - Personalización de modo subasta - Integración con GPS de Transportistas",
     image: bathroomImage,
@@ -69,25 +69,25 @@ export const SERVICES_CONTENT = [
 export const PORTFOLIO_PROJECTS = [
   {
     id: 1,
-    name: "Mes 1",
+    name: "PAQUETE 1",
     description:
-      "Personalización.",
+      "$200 pesos por operador por mes.",
     image: portfolio1,
     link: "#",
   },
   {
     id: 2,
-    name: "Mes 2",
+    name: "PAQUETE 2",
     description:
-      "Inicio pruebas piloto.",
+      "$160 pesos por operador por mes.",
     image: portfolio2,
     link: "#",
   },
   {
     id: 3,
-    name: "Mes 3",
+    name: "PAQUETE 3",
     description:
-      "Puesta en marcha.",
+      "$140 pesos por operador por mes.",
     image: portfolio3,
     link: "#",
   },/*

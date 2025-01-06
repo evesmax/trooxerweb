@@ -5,7 +5,7 @@ const Portfolio = () => {
     <section className="max-w-7xl mx-auto border-b-2" id="portfolio">
       <div className="mb-20">
         <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mt-20 mb-12">
-          Trooxer
+          NUESTROS PAQUETES
         </h2>
         <p className="text-xl tracking-tight text-center mt-20 mb-12">
           Garantizamos el mejor tiempo de implementacion.
