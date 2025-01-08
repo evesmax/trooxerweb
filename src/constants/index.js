@@ -1,4 +1,5 @@
 import hero from "../assets/hero.jpg";
+import logo from "../assets/logo.png";
 import kitchenImage from "../assets/kitchen.jpg";
 import bathroomImage from "../assets/bathroom.jpg";
 import livingRoomImage from "../assets/living-room.avif";
@@ -6,16 +7,11 @@ import livingRoomImage from "../assets/living-room.avif";
 import portfolio1 from "../assets/portafolio1.png";
 import portfolio2 from "../assets/portafolio2.png";
 import portfolio3 from "../assets/portafolio3.png";
-import portfolio4 from "../assets/portfolio4.webp";
-import portfolio5 from "../assets/portfolio5.webp";
-import portfolio6 from "../assets/portfolio6.webp";
+import portfolio4 from "../assets/portafolio4.png";
 
 import user1 from "../assets/user1.webp";
 import user2 from "../assets/user2.webp";
 import user3 from "../assets/user3.webp";
-import user4 from "../assets/user4.webp";
-import user5 from "../assets/user5.webp";
-import user6 from "../assets/user6.webp";
 
 export const LINKS = [
   {
@@ -42,7 +38,7 @@ export const HERO_CONTENT = {
   image: hero,
 };
 
-export const SERVICES_CONTENT = [
+export const SERVICES_CONTENT = [/*
   {
     title: "Publicación y asignación de Carga.",
     description:
@@ -63,13 +59,13 @@ export const SERVICES_CONTENT = [
       "- Botón de pánico desde las aplicaciones para informar en Vempo real cualquier incidente. - Comunicación directa con los operadores desde la mensajería",
     image: livingRoomImage,
     alt: "Living Room Renovation",
-  },
+  },*/
 ];
 
 export const PORTFOLIO_PROJECTS = [
   {
     id: 1,
-    name: "PAQUETE 1",
+    name: "Gratis",
     description:
       "$200 pesos por operador por mes.",
     image: portfolio1,
@@ -77,7 +73,7 @@ export const PORTFOLIO_PROJECTS = [
   },
   {
     id: 2,
-    name: "PAQUETE 2",
+    name: "Standard",
     description:
       "$160 pesos por operador por mes.",
     image: portfolio2,
@@ -85,36 +81,20 @@ export const PORTFOLIO_PROJECTS = [
   },
   {
     id: 3,
-    name: "PAQUETE 3",
+    name: "PRO",
     description:
       "$140 pesos por operador por mes.",
     image: portfolio3,
     link: "#",
-  },/*
+  },
   {
     id: 4,
-    name: "Elegant Living Room Update",
+    name: "Enterprice",
     description:
-      "Updated a living room with new flooring, stylish lighting, and custom-built shelving units.",
+      "$140 pesos por operador por mes.",
     image: portfolio4,
     link: "#",
   },
-  {
-    id: 5,
-    name: "Basement Conversion",
-    description:
-      "Converted an unused basement into a modern, multi-functional space including a home theater, gym, and guest bedroom.",
-    image: portfolio5,
-    link: "#",
-  },
-  {
-    id: 6,
-    name: "Home Office Transformation",
-    description:
-      "Created a sleek and functional home office, optimizing space with ergonomic furniture, ample storage, and modern decor.",
-    image: portfolio6,
-    link: "#",
-  },*/
 ];
 
 export const REVIEWS = {
@@ -140,28 +120,7 @@ export const REVIEWS = {
       review:
         "VastuSpaze helped us create the perfect outdoor living space. Their creativity and craftsmanship turned our backyard into a beautiful oasis. It's now our favorite place to relax and entertain guests.",
       image: user3,
-    },/*
-    {
-      name: "David Lee",
-      title: "Homeowner",
-      review:
-        "The living room update exceeded our expectations. VastuSpaze's team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our home.",
-      image: user4,
     },
-    {
-      name: "Ella Fernandez",
-      title: "Homeowner",
-      review:
-        "From start to finish, VastuSpaze was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our home office is now a stylish and functional space.",
-      image: user5,
-    },
-    {
-      name: "Frank Wilson",
-      title: "Homeowner",
-      review:
-        "VastuSpaze did an amazing job on our basement conversion. They created a cozy, multi-functional space that our family loves. The team was professional and delivered on time and within budget.",
-      image: user6,
-    },*/
   ],
 };
 

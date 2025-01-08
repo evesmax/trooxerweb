@@ -27,8 +27,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`border-b-2 fixed ${isScrolled ? "block" : "hidden"}`} style={{ backgroundColor: "white" }}>
-      <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
+    <nav className={`text-align: center border-b-2"}`} style={{ backgroundColor: "white" }}>
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-8 ">
         <div className="pl-2">
           <a href="#">
             <img src={logo} width={150} height={15} alt="trooxer" />
