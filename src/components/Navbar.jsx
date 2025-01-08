@@ -35,11 +35,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="md:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-2xl pr-2 focus:outline-none"
-            aria-label={isOpen ? "Close menu" : "Open menu"}
-          >
+          <button onClick={toggleMenu} className="text-2xl pr-2 focus:outline-none" aria-label={isOpen ? "Close menu" : "Open menu"}>
             {isOpen ? <RiCloseLine /> : <RiMenu3Line />}
           </button>
         </div>
