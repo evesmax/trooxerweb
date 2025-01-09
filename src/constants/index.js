@@ -3,6 +3,8 @@ import hero from "../assets/hero.png";
 import plataforma1 from "../assets/plataforma1.png";
 import plataforma2 from "../assets/plataforma2.png";
 import plataforma3 from "../assets/plataforma3.png";
+import plataforma4 from "../assets/plataforma4.png";
+import plataforma5 from "../assets/plataforma5.png";
 
 import portfolio1 from "../assets/portafolio1.png";
 import portfolio2 from "../assets/portafolio2.png";
@@ -41,21 +43,48 @@ export const HERO_CONTENT = {
 
 export const SERVICES_CONTENT = [
   {
-    title: "",
-    description: "",
+    title: "Gestión de viajes",
+    description: "Acorde al siguiente flujo:",
     image: plataforma1,
     alt: "plataforma 1",
     list: [
-      "Aplicación Web: Gestiona tus operaciones desde cualquier dispositivo, en cualquier momento.",
-      "Optimizar tus operaciones de transporte desde el primer día.",
-      "Obtener resultados inmediatos y un retorno de inversión tangible.",
+      "El administrador carga los datos del viaje en la plataforma",
+      "El operador recibe una notificación en WhatsApp con los detalles del viaje.",
+      "El operador confirma el inicio del viaje a través de WhatsApp.",
+      "El agente virtual guía al operador durante el viaje.",
+      "El operador completa las tareas y reporta su progreso a través de WhatsApp.",
+      "El administrador visualiza el estado del viaje y el progreso en el dashboard."
+    ],
+  },
+  {
+    title: "Comunicación en tiempo real",
+    description:"El operador se comunica con los supervisores en caso de problemas o alertas.",
+    image: plataforma2,
+    alt: "platadorma 2",
+    list: [
+      "El operador envía un mensaje de alerta a través de WhatsApp.",
+      "La plataforma notifica a los supervisores de tráfico a través de WhatsApp.",
+      "Los supervisores se comunican con el operador para resolver el problema.",
+    ],
+  },
+  {
+    title: "Dashboard y Reportes",
+    description:"Los usuarios de la empresa transportista con acceso a reportes visualizan el dashboard para monitorear los viajes, la ubicación de las unidades, la ejecución de tareas y descargar evidencias.",
+    image: plataforma3,
+    alt: "plataforma 3",
+    list: [
+      
+      "El dashboard muestra una vista general del estado de los viajes, incluyendo la ubicación de las unidades en tiempo real.",
+      "Acceder a detalles de cada viaje, incluyendo la ruta, el progreso de las tareas y las alertas generadas.",
+      "Descargar las evidencias multimedia asociadas a las tareas completadas por los operadores.",
+      "Genera reportes personalizados con la información del dashboard.",
     ],
   },
   {
     title: "Olvídate de las complicaciones y da el salto a la eficiencia con Trooxer.",
-    description:"Nuestra plataforma tecnológica, resultado de la unión de la experiencia de más de 40 años en el sector logístico y la innovación de herramientas líderes a nivel mundial, te permite:",
-    image: plataforma2,
-    alt: "Bathroom Renovation",
+    description: "",
+    image: plataforma4,
+    alt: "plataforma 4",
     list: [
       "Integrar fácilmente Trooxer con tus sistemas actuales.",
       "Optimizar tus operaciones de transporte desde el primer día.",
@@ -64,9 +93,10 @@ export const SERVICES_CONTENT = [
   },
   {
     title: "Suscríbete mensualmente y comienza a experimentar los beneficios de Trooxer hoy mismo.",
-    description:"",
-    image: plataforma3,
-    alt: "Living Room Renovation",
+    description: "",
+    image: plataforma5,
+    alt: "plataforma 5",
+    link: "https://example.com",
     list: [
       "Reducción de costos operativos",
       "Mayor control y visibilidad de las rutas",
@@ -82,7 +112,7 @@ export const PORTFOLIO_PROJECTS = [
     id: 1,
     name: "Gratis",
     description:
-      "$200",
+      "",
     image: portfolio1,
     link: "#",
   },
@@ -90,15 +120,15 @@ export const PORTFOLIO_PROJECTS = [
     id: 2,
     name: "Standard",
     description:
-      "$160",
+      "",
     image: portfolio2,
     link: "#",
   },
   {
     id: 3,
-    name: "PRO",
+    name: "Pro",
     description:
-      "$140",
+      "",
     image: portfolio3,
     link: "#",
   },
@@ -106,7 +136,7 @@ export const PORTFOLIO_PROJECTS = [
     id: 4,
     name: "Enterprice",
     description:
-      "$140",
+      "",
     image: portfolio4,
     link: "#",
   },
@@ -143,14 +173,14 @@ export const CONTACT_INFO = {
   text: "¿Más preguntas? Contactanos por cualquiera de las siguientes opciones.",
   phone: {
     label: "Telefono",
-    value: "(33)1940-8310",
+    value: "(33) 1940 - 8310",
   },
   email: {
     label: "Email",
     value: "contacto@trooxer.com",
   },
   address: {
-    label: "Zapopan, Jalisco, México",
-    value: "",
+    label: "Zapopan, Jalisco",
+    value: "México",
   },
 };

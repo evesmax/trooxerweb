@@ -8,11 +8,8 @@ const Portfolio = () => {
           NUESTROS PAQUETES
         </h2>
         <p className="text-xl tracking-tight text-center mt-20 mb-12">
-        Suscríbete mensualmente y comienza a experimentar los beneficios de Trooxer hoy mismo,
-        <br></br>
-        garantizamos el mejor tiempo de implementacion.
+        Garantizamos el mejor tiempo de implementacion.
         </p>
-
         <div className="inline-flex grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {PORTFOLIO_PROJECTS.map((project) => (
             <div key={project.id}className="group relative overflow-hidden rounded-3xl mx-4">
@@ -24,7 +21,6 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
