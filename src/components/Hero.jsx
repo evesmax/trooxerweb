@@ -13,7 +13,7 @@ const Hero = () => {
           alt="Hero"
         />
       </div>
-      <p className="lg:mt-6 text-3xl mb-4 font-medium tracking-tighter">
+      <p className="px-20 lg:mt-6 text-3xl mb-4 font-medium tracking-tighter">
           {HERO_CONTENT.subtitle}
       </p>
       <div className="flex justify-center">

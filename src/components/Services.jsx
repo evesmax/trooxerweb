@@ -8,7 +8,7 @@ const Services = () => {
           Plataforma
         </h2>
         {SERVICES_CONTENT.map((service, index) => (
-          <div key={index} className="mb-12 mx-4 flex flex-col lg:flex-row">
+          <div key={index} className="mb-12 mx-10 flex flex-col lg:flex-row">
             <div className={`lg:w-1/2 mb-4 lg:mb-0 ${index % 2 === 0 ? "" : "lg:order-2"}`}>
               {service.link ? (
                 <a href={service.link} target="_blank" rel="noopener noreferrer">
